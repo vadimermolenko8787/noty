@@ -7,7 +7,6 @@ const env = require('yargs').argv.env
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const extractSass = new ExtractTextPlugin({filename: 'noty.css'})
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin
-const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 let libraryName = 'Noty'
 let plugins = []
@@ -23,15 +22,6 @@ if (env === 'build') {
   outputFile = libraryName.toLowerCase() + '.min.js'
 } else {
   outputFile = libraryName.toLowerCase() + '.js'
-  plugins.push(new BrowserSyncPlugin({
-    ui: false,
-    host: 'localhost',
-    port: 3000,
-    server: {
-      baseDir: ['./'],
-      index: 'demo/index.html'
-    }
-  }))
 }
 
 const config = {

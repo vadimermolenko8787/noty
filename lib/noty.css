@@ -213,6 +213,7 @@
   100% {
     height: 0; } }
 
+/* THEME RELAX */
 .noty_theme__relax.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -259,7 +260,7 @@
   color: darkgreen; }
   .noty_theme__relax.noty_type__success .noty_buttons {
     border-color: #50C24E; }
-
+/* THEME METROUI */
 .noty_theme__metroui.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -302,6 +303,7 @@
   background-color: #60A917;
   color: #fff; }
 
+/* THEME MINT */
 .noty_theme__mint.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -340,6 +342,7 @@
   border-bottom: 1px solid #A0B55C;
   color: #fff; }
 
+/* THEME SUNSET */
 .noty_theme__sunset.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -382,6 +385,7 @@
   background-color: #06D6A0;
   color: #fff; }
 
+/* THEME BOOTSTRAP V3 */
 .noty_theme__bootstrap-v3.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -434,6 +438,7 @@
   color: #3c763d;
   border-color: #d6e9c6; }
 
+/* THEME BOOTSTRAP V4 */
 .noty_theme__bootstrap-v4.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -486,6 +491,7 @@
   color: #3c763d;
   border-color: #d6e9c6; }
 
+/* THEME SEMANTIC UI */
 .noty_theme__semanticui.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -526,6 +532,7 @@
   color: #2c662d;
   box-shadow: 0 0 0 1px #a3c293 inset, 0 0 0 0 transparent; }
 
+/* THEME NEST */
 .noty_theme__nest.noty_bar {
   margin: 0 0 15px 0;
   overflow: hidden;
@@ -647,6 +654,7 @@
   background-color: #06D6A0;
   color: #fff; }
 
+/* THEME LIGHT */
 .noty_theme__light.noty_bar {
   margin: 4px 0;
   overflow: hidden;
@@ -693,5 +701,76 @@
   color: darkgreen; }
   .noty_theme__light.noty_type__success .noty_buttons {
     border-color: #50C24E; }
+
+/* THEME METRONIC LIGHT V8  */
+
+.noty_theme__metronic-light-v8.noty_bar {
+  margin: 4px 0;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.noty_theme__metronic-light-v8.noty_bar .noty_body {
+  padding: .75rem 1.25rem;
+}
+.noty_theme__metronic-light-v8.noty_bar .noty_buttons {
+  padding: 10px;
+}
+.noty_theme__metronic-light-v8.noty_bar .noty_close_button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .5;
+  background: transparent;
+}
+.noty_theme__metronic-light-v8.noty_bar .noty_close_button:hover {
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .75;
+}
+
+.noty_theme__metronic-light-v8.noty_type__alert,
+.noty_theme__metronic-light-v8.noty_type__notification {
+  background-color: #fff;
+  color: inherit;
+}
+
+.noty_theme__metronic-light-v8.noty_type__warning {
+  background-color: #FFF8DD;
+  color: #4B5675;
+  border-color: transparent;
+}
+
+.noty_theme__metronic-light-v8.noty_type__error {
+  background-color: #FFEEF3;
+  color: #4B5675;
+  border-color: transparent;
+}
+
+.noty_theme__metronic-light-v8.noty_type__info,
+.noty_theme__metronic-light-v8.noty_type__information {
+  background-color: #F8F5FF;
+  color: #4B5675;
+  border-color: transparent;
+}
+
+.noty_theme__metronic-light-v8.noty_type__primary{
+  background-color: #E9F3FF;
+  color: #4B5675;
+  border-color: transparent;
+}
+
+.noty_theme__metronic-light-v8.noty_type__success {
+  background-color: #DFFFEA;
+  color: #4B5675;
+  border-color: transparent;
+}
+
 
 /*# sourceMappingURL=noty.css.map*/

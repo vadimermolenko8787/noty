@@ -30,8 +30,8 @@
 ## Sponsored By
 
 <div class="supported-by">
-    <a target="_blank" href="https://infatica.io/">
-        <img src="https://infatica.io/templates/digit-whm-white/images/Logo-black.svg" width="220" alt="">
+    <a target="_blank" href="https://pusher.com/?utm_source=needim&utm_medium=paid&utm_campaign=needim">
+        <img src="_media/pusher_logo_dark.png" width="160" alt="">
     </a>
 </div>
 
@@ -47,6 +47,11 @@
     </a>
 </div>
 <br>
+<div class="supported-by">
+    <a target="_blank" href="https://goo.gl/ttbzE4">
+        <img src="_media/site_splat.svg" width="235" alt="">
+    </a>
+</div>
 
 <div class="supported-by">
     <a target="_blank" href="https://www.casinotopp.net">

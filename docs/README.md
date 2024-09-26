@@ -46,12 +46,6 @@
         <img src="_media/browserstack.svg" width="220" alt="">
     </a>
 </div>
-<br>
-<div class="supported-by">
-    <a target="_blank" href="https://themeforest.net/user/themesplat/portfolio?ref=ThemeSplat">
-        <img src="_media/site_splat.svg" width="235" alt="">
-    </a>
-</div>
 
 <div class="supported-by">
     <a target="_blank" href="https://goo.gl/ttbzE4">

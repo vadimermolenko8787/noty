@@ -1,6 +1,6 @@
-$noty-primary-color: #333 !default;
-$noty-default-width: 325px !default;
-$noty-corner-space: 20px !default;
+$primary-color: #333;
+$default-width: 325px;
+$corner-space: 20px;
 
 .noty_layout_mixin {
   position: fixed;
@@ -24,24 +24,24 @@ $noty-corner-space: 20px !default;
 
 #noty_layout__topLeft {
   @extend .noty_layout_mixin;
-  top: $noty-corner-space;
-  left: $noty-corner-space;
-  width: $noty-default-width;
+  top: $corner-space;
+  left: $corner-space;
+  width: $default-width;
 }
 
 #noty_layout__topCenter {
   @extend .noty_layout_mixin;
   top: 5%;
   left: 50%;
-  width: $noty-default-width;
+  width: $default-width;
   transform: translate(calc(-50% - .5px)) translateZ(0) scale(1.0, 1.0);
 }
 
 #noty_layout__topRight {
   @extend .noty_layout_mixin;
-  top: $noty-corner-space;
-  right: $noty-corner-space;
-  width: $noty-default-width;
+  top: $corner-space;
+  right: $corner-space;
+  width: $default-width;
 }
 
 #noty_layout__bottom {
@@ -53,47 +53,47 @@ $noty-corner-space: 20px !default;
 
 #noty_layout__bottomLeft {
   @extend .noty_layout_mixin;
-  bottom: $noty-corner-space;
-  left: $noty-corner-space;
-  width: $noty-default-width;
+  bottom: $corner-space;
+  left: $corner-space;
+  width: $default-width;
 }
 
 #noty_layout__bottomCenter {
   @extend .noty_layout_mixin;
   bottom: 5%;
   left: 50%;
-  width: $noty-default-width;
+  width: $default-width;
   transform: translate(calc(-50% - .5px)) translateZ(0) scale(1.0, 1.0);
 }
 
 #noty_layout__bottomRight {
   @extend .noty_layout_mixin;
-  bottom: $noty-corner-space;
-  right: $noty-corner-space;
-  width: $noty-default-width;
+  bottom: $corner-space;
+  right: $corner-space;
+  width: $default-width;
 }
 
 #noty_layout__center {
   @extend .noty_layout_mixin;
   top: 50%;
   left: 50%;
-  width: $noty-default-width;
+  width: $default-width;
   transform: translate(calc(-50% - .5px), calc(-50% - .5px)) translateZ(0) scale(1.0, 1.0);
 }
 
 #noty_layout__centerLeft {
   @extend .noty_layout_mixin;
   top: 50%;
-  left: $noty-corner-space;
-  width: $noty-default-width;
+  left: $corner-space;
+  width: $default-width;
   transform: translate(0, calc(-50% - .5px)) translateZ(0) scale(1.0, 1.0);
 }
 
 #noty_layout__centerRight {
   @extend .noty_layout_mixin;
   top: 50%;
-  right: $noty-corner-space;
-  width: $noty-default-width;
+  right: $corner-space;
+  width: $default-width;
   transform: translate(0, calc(-50% - .5px)) translateZ(0) scale(1, 1);
 }
 
@@ -191,6 +191,12 @@ $noty-corner-space: 20px !default;
   }
 }
 
+@keyframes noty_modal_out {
+  100% {
+    opacity: 0;
+  }
+}
+
 @keyframes noty_anim_in {
   100% {
     transform: translate(0);
@@ -210,3 +216,14 @@ $noty-corner-space: 20px !default;
     height: 0;
   }
 }
+
+@import "themes/relax";
+@import "themes/metroui";
+@import "themes/mint";
+@import "themes/sunset";
+@import "themes/bootstrap-v3";
+@import "themes/bootstrap-v4";
+@import "themes/semanticui";
+@import "themes/nest";
+@import "themes/light";
+@import "themes/metronic-light-v8"

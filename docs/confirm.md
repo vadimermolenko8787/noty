@@ -13,8 +13,7 @@ var n = new Noty({
         n.close();
     })
   ]
-});
-n.show();
+}).show();
 ```
 
 ?> **Noty.button**(**text**:string, **classNames**:string, **cb**:function, **attributes**:object<optional>);
